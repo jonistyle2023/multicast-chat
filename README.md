@@ -36,9 +36,9 @@ Desarrollar una aplicación distribuida que utilice **comunicación multicast** 
 ```bash
 MulticastChat/
 ├── src/
-│   ├── ChatNode.java        # Clase principal para ejecutar nodos de chat
-│   ├── MulticastSender.java # Maneja envío de mensajes multicast
-│   └── MulticastReceiver.java # Hilo concurrente para recepción de mensajes
+│   ├── multicast.ChatNode.java        # Clase principal para ejecutar nodos de chat
+│   ├── multicast.MulticastSender.java # Maneja envío de mensajes multicast
+│   └── multicast.MulticastReceiver.java # Hilo concurrente para recepción de mensajes
 └── README.md
 ```
 
@@ -49,7 +49,7 @@ MulticastChat/
 1. Clona el repositorio.
 2. Asegúrate de tener Java 23 instalado.
 3. Compila el proyecto con `javac src/*.java`.
-4. Ejecuta el nodo con `java -cp src ChatNode`.
+4. Ejecuta el nodo con `java -cp src multicast.ChatNode`.
 
 En este punto asegurate de abrir tantos terminales como nodos quieras crear, cada uno ejecutando el comando anterior.
 Aqui un ejemplo:

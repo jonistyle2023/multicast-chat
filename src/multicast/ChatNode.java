@@ -1,3 +1,4 @@
+package multicast;
 // Initial creation by Jonathan Panchana Rodríguez on 12/05/2025
 // Group: 12 on Distributed Systems at Universidad Técnica Particular de Loja
 
@@ -5,7 +6,7 @@ import java.util.Scanner;
 
 public class ChatNode {
     public static void main(String[] args) {
-        final String multicastAddress = "224.0.0.0"; // Use a valid multicast address
+        final String multicastAddress = "224.0.1.1"; // Use a valid multicast address
         final int port = 4446;
 
         Scanner scanner = new Scanner(System.in);
