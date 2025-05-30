@@ -4,11 +4,11 @@ import java.util.*;
 public class UnicastSender {
     private static final int PORT = 5000;
 
-    // Reemplaza estas IPs con las direcciones ZeroTier de tus compañeros
+
     private static final List<String> peerIPs = Arrays.asList(
             "10.147.17.213",  // IP ZeroTier de Javier
-            "10.147.17.243",  // IP ZeroTier de compañero 2
-            "192.168.191.4"   // IP ZeroTier de compañero 3
+            "10.147.17.243",  // IP ZeroTier de Andres
+            "10.147.17.201"   // IP ZeroTier de Jonathan
     );
 
     public static void main(String[] args) throws Exception {
