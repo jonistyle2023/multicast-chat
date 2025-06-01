@@ -5,6 +5,13 @@
 
 ---
 
+>[!IMPORTANT]
+> 
+>Créditos:
+> - **Desarrollo inicial:** Jonathan David Panchana Rodríguez (multicast package)
+> - **Supervisado por:** Flavio Javier Carvajal Carrera
+> - **Desarrollo final:** Andrés Alejandro Sánchez Garzón (forZeroTier Package)
+
 ## Objetivo del Proyecto
 
 Desarrollar una aplicación distribuida que utilice **comunicación multicast** y **concurrencia** para enviar y recibir mensajes entre múltiples nodos en una red virtual, permitiendo la captura y análisis del tráfico mediante **Wireshark**.
@@ -49,7 +56,7 @@ MulticastChat/
 1. Clona el repositorio.
 2. Asegúrate de tener Java 23 instalado.
 3. Compila el proyecto con `javac src/*.java`.
-4. Ejecuta el nodo con `java -cp src multicast.ChatNode`.
+4. Ejecuta el nodo con `java ChatNode.java`.
 
 En este punto asegurate de abrir tantos terminales como nodos quieras crear, cada uno ejecutando el comando anterior.
 Aqui un ejemplo:
